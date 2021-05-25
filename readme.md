@@ -1,0 +1,2 @@
+#Icy - A personal use discord bot
+Icy is a discord bot in developmento by me, created with the puricy is a bot created by me with the purpose of encouraging myself to create new personal projects, and to make this code available to people who are still learning. It won't be complicated at all and I'm just trying to exercise my mind by creating an organized repository and with an application that really works.
