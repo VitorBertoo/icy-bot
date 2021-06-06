@@ -2,7 +2,8 @@ import Discord from "discord.js";
 import dotenv from "dotenv";
 
 import Client from "./src/classes/Client";
-import playMusic from "./src/commands/music/playMusic";
+
+import { play, join, leave } from "./src/commands/music";
 
 dotenv.config();
 
@@ -22,7 +23,13 @@ client.on("ready", () => {
 
       switch (command) {
         case "play":
-          playMusic(args, client, message);
+          play(args, client, message);
+
+        case "join":
+          join(message);
+
+        case "leave":
+          leave(message);
       }
     }
   });
